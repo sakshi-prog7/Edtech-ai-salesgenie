@@ -1,0 +1,6 @@
+campaignid,objective,startdate,enddate,budget,campaign_type,creative_type,manager,channel,conversion_goal
+AD001,Lead Generation,2024-03-01,2024-08-31,1800000,Paid Search,Static Ads,Priya,Google Ads,Application
+AD002,Admissions,2025-05-01,2025-10-31,1500000,Paid Social,Video,Rohit,Facebook,Lead
+AD003,Career Promotion,2025-01-01,2025-05-31,1000000,Professional Networking,Carousel,Ananya,LinkedIn,Placement
+AD004,Brand Awareness,2024-01-01,2024-03-31,800000,Event Marketing,Video,Arjun,YouTube,Registration
+AD005,Student Exchange,2024-08-01,2024-12-31,1200000,Social Media,Reels,Megha,Instagram,Application

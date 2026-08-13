@@ -1,0 +1,192 @@
+DatasetName,FileName,ColumnName,MissingValuesCount,MissingValuesPct
+01_student_performance,student-mat.csv,school,0,0.0
+01_student_performance,student-mat.csv,sex,0,0.0
+01_student_performance,student-mat.csv,age,0,0.0
+01_student_performance,student-mat.csv,address,0,0.0
+01_student_performance,student-mat.csv,famsize,0,0.0
+01_student_performance,student-mat.csv,Pstatus,0,0.0
+01_student_performance,student-mat.csv,Medu,0,0.0
+01_student_performance,student-mat.csv,Fedu,0,0.0
+01_student_performance,student-mat.csv,Mjob,0,0.0
+01_student_performance,student-mat.csv,Fjob,0,0.0
+01_student_performance,student-mat.csv,reason,0,0.0
+01_student_performance,student-mat.csv,guardian,0,0.0
+01_student_performance,student-mat.csv,traveltime,0,0.0
+01_student_performance,student-mat.csv,studytime,0,0.0
+01_student_performance,student-mat.csv,failures,0,0.0
+01_student_performance,student-mat.csv,schoolsup,0,0.0
+01_student_performance,student-mat.csv,famsup,0,0.0
+01_student_performance,student-mat.csv,paid,0,0.0
+01_student_performance,student-mat.csv,activities,0,0.0
+01_student_performance,student-mat.csv,nursery,0,0.0
+01_student_performance,student-mat.csv,higher,0,0.0
+01_student_performance,student-mat.csv,internet,0,0.0
+01_student_performance,student-mat.csv,romantic,0,0.0
+01_student_performance,student-mat.csv,famrel,0,0.0
+01_student_performance,student-mat.csv,freetime,0,0.0
+01_student_performance,student-mat.csv,goout,0,0.0
+01_student_performance,student-mat.csv,Dalc,0,0.0
+01_student_performance,student-mat.csv,Walc,0,0.0
+01_student_performance,student-mat.csv,health,0,0.0
+01_student_performance,student-mat.csv,absences,0,0.0
+01_student_performance,student-mat.csv,G1,0,0.0
+01_student_performance,student-mat.csv,G2,0,0.0
+01_student_performance,student-mat.csv,G3,0,0.0
+01_student_performance,student-por.csv,school,0,0.0
+01_student_performance,student-por.csv,sex,0,0.0
+01_student_performance,student-por.csv,age,0,0.0
+01_student_performance,student-por.csv,address,0,0.0
+01_student_performance,student-por.csv,famsize,0,0.0
+01_student_performance,student-por.csv,Pstatus,0,0.0
+01_student_performance,student-por.csv,Medu,0,0.0
+01_student_performance,student-por.csv,Fedu,0,0.0
+01_student_performance,student-por.csv,Mjob,0,0.0
+01_student_performance,student-por.csv,Fjob,0,0.0
+01_student_performance,student-por.csv,reason,0,0.0
+01_student_performance,student-por.csv,guardian,0,0.0
+01_student_performance,student-por.csv,traveltime,0,0.0
+01_student_performance,student-por.csv,studytime,0,0.0
+01_student_performance,student-por.csv,failures,0,0.0
+01_student_performance,student-por.csv,schoolsup,0,0.0
+01_student_performance,student-por.csv,famsup,0,0.0
+01_student_performance,student-por.csv,paid,0,0.0
+01_student_performance,student-por.csv,activities,0,0.0
+01_student_performance,student-por.csv,nursery,0,0.0
+01_student_performance,student-por.csv,higher,0,0.0
+01_student_performance,student-por.csv,internet,0,0.0
+01_student_performance,student-por.csv,romantic,0,0.0
+01_student_performance,student-por.csv,famrel,0,0.0
+01_student_performance,student-por.csv,freetime,0,0.0
+01_student_performance,student-por.csv,goout,0,0.0
+01_student_performance,student-por.csv,Dalc,0,0.0
+01_student_performance,student-por.csv,Walc,0,0.0
+01_student_performance,student-por.csv,health,0,0.0
+01_student_performance,student-por.csv,absences,0,0.0
+01_student_performance,student-por.csv,G1,0,0.0
+01_student_performance,student-por.csv,G2,0,0.0
+01_student_performance,student-por.csv,G3,0,0.0
+02_student_dropout,data.csv,Marital status,0,0.0
+02_student_dropout,data.csv,Application mode,0,0.0
+02_student_dropout,data.csv,Application order,0,0.0
+02_student_dropout,data.csv,Course,0,0.0
+02_student_dropout,data.csv,Daytime/evening attendance,0,0.0
+02_student_dropout,data.csv,Previous qualification,0,0.0
+02_student_dropout,data.csv,Previous qualification (grade),0,0.0
+02_student_dropout,data.csv,Nacionality,0,0.0
+02_student_dropout,data.csv,Mother's qualification,0,0.0
+02_student_dropout,data.csv,Father's qualification,0,0.0
+02_student_dropout,data.csv,Mother's occupation,0,0.0
+02_student_dropout,data.csv,Father's occupation,0,0.0
+02_student_dropout,data.csv,Admission grade,0,0.0
+02_student_dropout,data.csv,Displaced,0,0.0
+02_student_dropout,data.csv,Educational special needs,0,0.0
+02_student_dropout,data.csv,Debtor,0,0.0
+02_student_dropout,data.csv,Tuition fees up to date,0,0.0
+02_student_dropout,data.csv,Gender,0,0.0
+02_student_dropout,data.csv,Scholarship holder,0,0.0
+02_student_dropout,data.csv,Age at enrollment,0,0.0
+02_student_dropout,data.csv,International,0,0.0
+02_student_dropout,data.csv,Curricular units 1st sem (credited),0,0.0
+02_student_dropout,data.csv,Curricular units 1st sem (enrolled),0,0.0
+02_student_dropout,data.csv,Curricular units 1st sem (evaluations),0,0.0
+02_student_dropout,data.csv,Curricular units 1st sem (approved),0,0.0
+02_student_dropout,data.csv,Curricular units 1st sem (grade),0,0.0
+02_student_dropout,data.csv,Curricular units 1st sem (without evaluations),0,0.0
+02_student_dropout,data.csv,Curricular units 2nd sem (credited),0,0.0
+02_student_dropout,data.csv,Curricular units 2nd sem (enrolled),0,0.0
+02_student_dropout,data.csv,Curricular units 2nd sem (evaluations),0,0.0
+02_student_dropout,data.csv,Curricular units 2nd sem (approved),0,0.0
+02_student_dropout,data.csv,Curricular units 2nd sem (grade),0,0.0
+02_student_dropout,data.csv,Curricular units 2nd sem (without evaluations),0,0.0
+02_student_dropout,data.csv,Unemployment rate,0,0.0
+02_student_dropout,data.csv,Inflation rate,0,0.0
+02_student_dropout,data.csv,GDP,0,0.0
+02_student_dropout,data.csv,Target,0,0.0
+03_oulad,assessments.csv,code_module,0,0.0
+03_oulad,assessments.csv,code_presentation,0,0.0
+03_oulad,assessments.csv,id_assessment,0,0.0
+03_oulad,assessments.csv,assessment_type,0,0.0
+03_oulad,assessments.csv,date,11,5.339805825242718
+03_oulad,assessments.csv,weight,0,0.0
+03_oulad,courses.csv,code_module,0,0.0
+03_oulad,courses.csv,code_presentation,0,0.0
+03_oulad,courses.csv,module_presentation_length,0,0.0
+03_oulad,studentAssessment.csv,id_assessment,0,0.0
+03_oulad,studentAssessment.csv,id_student,0,0.0
+03_oulad,studentAssessment.csv,date_submitted,0,0.0
+03_oulad,studentAssessment.csv,is_banked,0,0.0
+03_oulad,studentAssessment.csv,score,173,0.09947559685358112
+03_oulad,studentInfo.csv,code_module,0,0.0
+03_oulad,studentInfo.csv,code_presentation,0,0.0
+03_oulad,studentInfo.csv,id_student,0,0.0
+03_oulad,studentInfo.csv,gender,0,0.0
+03_oulad,studentInfo.csv,region,0,0.0
+03_oulad,studentInfo.csv,highest_education,0,0.0
+03_oulad,studentInfo.csv,imd_band,1111,3.408707391157611
+03_oulad,studentInfo.csv,age_band,0,0.0
+03_oulad,studentInfo.csv,num_of_prev_attempts,0,0.0
+03_oulad,studentInfo.csv,studied_credits,0,0.0
+03_oulad,studentInfo.csv,disability,0,0.0
+03_oulad,studentInfo.csv,final_result,0,0.0
+03_oulad,studentRegistration.csv,code_module,0,0.0
+03_oulad,studentRegistration.csv,code_presentation,0,0.0
+03_oulad,studentRegistration.csv,id_student,0,0.0
+03_oulad,studentRegistration.csv,date_registration,45,0.13806645598748196
+03_oulad,studentRegistration.csv,date_unregistration,22521,69.09765900653515
+03_oulad,studentVle.csv,code_module,0,0.0
+03_oulad,studentVle.csv,code_presentation,0,0.0
+03_oulad,studentVle.csv,id_student,0,0.0
+03_oulad,studentVle.csv,id_site,0,0.0
+03_oulad,studentVle.csv,date,0,0.0
+03_oulad,studentVle.csv,sum_click,0,0.0
+03_oulad,vle.csv,id_site,0,0.0
+03_oulad,vle.csv,code_module,0,0.0
+03_oulad,vle.csv,code_presentation,0,0.0
+03_oulad,vle.csv,activity_type,0,0.0
+03_oulad,vle.csv,week_from,5243,82.3852922690132
+03_oulad,vle.csv,week_to,5243,82.3852922690132
+04_online_engagement,online_learning_engagement_dataset.csv,student_id,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,age,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,gender,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,country,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,device_type,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,internet_speed_mbps,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,study_hours_weekly,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,login_frequency_weekly,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,avg_session_duration_min,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,video_watch_time_min,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,assignments_submitted,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,forum_posts,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,quiz_attempts,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,avg_quiz_score,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,attendance_rate,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,engagement_score,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,final_grade,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,dropout,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Date,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],CampaignID,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],CampaignName,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Platform,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],TargetAudience,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Impressions,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Clicks,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Leads,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Applications,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Enrollments,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Cost (₹),0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Revenue (₹),0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Region,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],CampaignID,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Objective,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],StartDate,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],EndDate,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Budget (₹),0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Campaign Type,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Creative Type,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Manager,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Channel,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Conversion Goal,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],Channel,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],AvgCPM,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],AvgCPC,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],Remarks,0,0.0

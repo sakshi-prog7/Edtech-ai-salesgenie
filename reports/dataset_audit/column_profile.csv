@@ -1,0 +1,192 @@
+DatasetName,FileName,ColumnName,DataType,UniqueValuesCount,MissingValuesCount,MissingValuesPct,PotentialRole,IsNumerical,IsCategorical,IsDateTime,IsConstantOrNearConstant,InconsistentValues,OutliersSuspicious,HasPII,DataLeakageRisk
+01_student_performance,student-mat.csv,school,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,sex,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,age,int64,8,0,0.0,Feature,True,False,False,False,None,1 outliers (IQR method),False,False
+01_student_performance,student-mat.csv,address,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,famsize,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,Pstatus,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,Medu,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,Fedu,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,Mjob,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,Fjob,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,reason,str,4,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,guardian,str,3,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,traveltime,int64,4,0,0.0,Feature,True,False,True,False,None,None,False,False
+01_student_performance,student-mat.csv,studytime,int64,4,0,0.0,Feature,True,False,True,False,None,None,False,False
+01_student_performance,student-mat.csv,failures,int64,4,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,schoolsup,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,famsup,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,paid,str,2,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,activities,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,nursery,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,higher,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,internet,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,romantic,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-mat.csv,famrel,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,freetime,int64,5,0,0.0,Feature,True,False,True,False,None,None,False,False
+01_student_performance,student-mat.csv,goout,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,Dalc,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,Walc,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,health,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,absences,int64,34,0,0.0,Feature,True,False,False,False,None,15 outliers (IQR method),False,False
+01_student_performance,student-mat.csv,G1,int64,17,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-mat.csv,G2,int64,17,0,0.0,Feature,True,False,False,False,None,13 outliers (IQR method),False,False
+01_student_performance,student-mat.csv,G3,int64,18,0,0.0,Target / Label,True,False,False,False,None,None,False,True
+01_student_performance,student-por.csv,school,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,sex,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,age,int64,8,0,0.0,Feature,True,False,False,False,None,1 outliers (IQR method),False,False
+01_student_performance,student-por.csv,address,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,famsize,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,Pstatus,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,Medu,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,Fedu,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,Mjob,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,Fjob,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,reason,str,4,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,guardian,str,3,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,traveltime,int64,4,0,0.0,Feature,True,False,True,False,None,None,False,False
+01_student_performance,student-por.csv,studytime,int64,4,0,0.0,Feature,True,False,True,False,None,None,False,False
+01_student_performance,student-por.csv,failures,int64,4,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,schoolsup,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,famsup,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,paid,str,2,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,activities,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,nursery,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,higher,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,internet,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,romantic,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+01_student_performance,student-por.csv,famrel,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,freetime,int64,5,0,0.0,Feature,True,False,True,False,None,None,False,False
+01_student_performance,student-por.csv,goout,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,Dalc,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,Walc,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,health,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+01_student_performance,student-por.csv,absences,int64,24,0,0.0,Feature,True,False,False,False,None,21 outliers (IQR method),False,False
+01_student_performance,student-por.csv,G1,int64,17,0,0.0,Feature,True,False,False,False,None,16 outliers (IQR method),False,False
+01_student_performance,student-por.csv,G2,int64,16,0,0.0,Feature,True,False,False,False,None,25 outliers (IQR method),False,False
+01_student_performance,student-por.csv,G3,int64,17,0,0.0,Target / Label,True,False,False,False,None,16 outliers (IQR method),False,True
+02_student_dropout,data.csv,Marital status,int64,6,0,0.0,Feature,True,False,False,False,None,505 outliers (IQR method),False,False
+02_student_dropout,data.csv,Application mode,int64,18,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Application order,int64,8,0,0.0,Feature,True,False,False,False,None,541 outliers (IQR method),False,False
+02_student_dropout,data.csv,Course,int64,17,0,0.0,Feature,True,False,False,False,None,442 outliers (IQR method),False,False
+02_student_dropout,data.csv,Daytime/evening attendance,int64,2,0,0.0,Feature,True,False,True,False,None,None,False,False
+02_student_dropout,data.csv,Previous qualification,int64,17,0,0.0,Feature,True,False,False,False,None,707 outliers (IQR method),False,False
+02_student_dropout,data.csv,Previous qualification (grade),float64,101,0,0.0,Feature,True,False,False,False,None,179 outliers (IQR method),False,False
+02_student_dropout,data.csv,Nacionality,int64,21,0,0.0,Feature,True,False,False,False,None,110 outliers (IQR method),False,False
+02_student_dropout,data.csv,Mother's qualification,int64,29,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Father's qualification,int64,34,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Mother's occupation,int64,32,0,0.0,Feature,True,False,False,False,None,182 outliers (IQR method),False,False
+02_student_dropout,data.csv,Father's occupation,int64,46,0,0.0,Feature,True,False,False,False,None,177 outliers (IQR method),False,False
+02_student_dropout,data.csv,Admission grade,float64,620,0,0.0,Feature,True,False,False,False,None,86 outliers (IQR method),False,False
+02_student_dropout,data.csv,Displaced,int64,2,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Educational special needs,int64,2,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Debtor,int64,2,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Tuition fees up to date,int64,2,0,0.0,Feature,True,False,True,False,None,None,False,False
+02_student_dropout,data.csv,Gender,int64,2,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Scholarship holder,int64,2,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Age at enrollment,int64,46,0,0.0,Feature,True,False,False,False,None,441 outliers (IQR method),False,False
+02_student_dropout,data.csv,International,int64,2,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Curricular units 1st sem (credited),int64,21,0,0.0,Feature,True,False,False,False,None,577 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 1st sem (enrolled),int64,23,0,0.0,Feature,True,False,False,False,None,424 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 1st sem (evaluations),int64,35,0,0.0,Feature,True,False,False,False,None,158 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 1st sem (approved),int64,23,0,0.0,Feature,True,False,False,False,None,180 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 1st sem (grade),float64,805,0,0.0,Feature,True,False,False,False,None,726 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 1st sem (without evaluations),int64,11,0,0.0,Feature,True,False,False,False,None,294 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 2nd sem (credited),int64,19,0,0.0,Feature,True,False,False,False,None,530 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 2nd sem (enrolled),int64,22,0,0.0,Feature,True,False,False,False,None,369 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 2nd sem (evaluations),int64,30,0,0.0,Feature,True,False,False,False,None,109 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 2nd sem (approved),int64,20,0,0.0,Feature,True,False,False,False,None,44 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 2nd sem (grade),float64,786,0,0.0,Feature,True,False,False,False,None,877 outliers (IQR method),False,False
+02_student_dropout,data.csv,Curricular units 2nd sem (without evaluations),int64,10,0,0.0,Feature,True,False,False,False,None,282 outliers (IQR method),False,False
+02_student_dropout,data.csv,Unemployment rate,float64,10,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Inflation rate,float64,9,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,GDP,float64,10,0,0.0,Feature,True,False,False,False,None,None,False,False
+02_student_dropout,data.csv,Target,str,3,0,0.0,Target / Label,False,True,False,False,None,None,False,False
+03_oulad,assessments.csv,code_module,str,7,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,assessments.csv,code_presentation,str,4,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,assessments.csv,id_assessment,int64,206,0,0.0,ID / Relationship Key,True,False,False,False,None,None,False,False
+03_oulad,assessments.csv,assessment_type,str,3,0,0.0,Feature,False,True,False,False,None,None,False,False
+03_oulad,assessments.csv,date,float64,74,11,5.339805825242718,Feature,True,False,True,False,None,None,False,False
+03_oulad,assessments.csv,weight,float64,24,0,0.0,Feature,True,False,False,False,None,24 outliers (IQR method),False,False
+03_oulad,courses.csv,code_module,str,7,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,courses.csv,code_presentation,str,4,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,courses.csv,module_presentation_length,int64,7,0,0.0,Feature,True,False,False,False,None,None,False,False
+03_oulad,studentAssessment.csv,id_assessment,int64,188,0,0.0,ID / Relationship Key,True,False,False,False,None,None,False,False
+03_oulad,studentAssessment.csv,id_student,int64,23369,0,0.0,ID / Relationship Key,True,False,False,False,None,35636 outliers (IQR method),False,False
+03_oulad,studentAssessment.csv,date_submitted,int64,312,0,0.0,Feature,True,False,True,False,None,None,False,False
+03_oulad,studentAssessment.csv,is_banked,int64,2,0,0.0,Feature,True,False,False,False,None,None,False,False
+03_oulad,studentAssessment.csv,score,float64,101,173,0.09947559685358112,Feature,True,False,False,False,None,3813 outliers (IQR method),False,False
+03_oulad,studentInfo.csv,code_module,str,7,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,code_presentation,str,4,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,id_student,int64,28785,0,0.0,ID / Relationship Key,True,False,False,False,None,6460 outliers (IQR method),False,False
+03_oulad,studentInfo.csv,gender,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,region,str,13,0,0.0,Feature,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,highest_education,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,imd_band,str,10,1111,3.408707391157611,Feature,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,age_band,str,3,0,0.0,Feature,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,num_of_prev_attempts,int64,7,0,0.0,Feature,True,False,False,False,None,4172 outliers (IQR method),False,False
+03_oulad,studentInfo.csv,studied_credits,int64,61,0,0.0,Feature,True,False,False,False,None,350 outliers (IQR method),False,False
+03_oulad,studentInfo.csv,disability,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+03_oulad,studentInfo.csv,final_result,str,4,0,0.0,Target / Label,False,True,False,False,None,None,False,True
+03_oulad,studentRegistration.csv,code_module,str,7,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,studentRegistration.csv,code_presentation,str,4,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,studentRegistration.csv,id_student,int64,28785,0,0.0,ID / Relationship Key,True,False,False,False,None,6460 outliers (IQR method),False,False
+03_oulad,studentRegistration.csv,date_registration,float64,332,45,0.13806645598748196,Feature,True,False,True,False,None,None,False,False
+03_oulad,studentRegistration.csv,date_unregistration,float64,416,22521,69.09765900653515,Feature,True,False,True,False,None,None,False,True
+03_oulad,studentVle.csv,code_module,str,7,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,studentVle.csv,code_presentation,str,4,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,studentVle.csv,id_student,int64,26074,0,0.0,ID / Relationship Key,True,False,False,False,None,2371252 outliers (IQR method),False,False
+03_oulad,studentVle.csv,id_site,int64,6268,0,0.0,ID / Relationship Key,True,False,False,False,None,None,False,False
+03_oulad,studentVle.csv,date,int64,295,0,0.0,Feature,True,False,True,False,None,None,False,False
+03_oulad,studentVle.csv,sum_click,int64,498,0,0.0,Feature,True,False,False,False,None,1314646 outliers (IQR method),False,False
+03_oulad,vle.csv,id_site,int64,6364,0,0.0,ID / Relationship Key,True,False,False,False,None,17 outliers (IQR method),False,False
+03_oulad,vle.csv,code_module,str,7,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,vle.csv,code_presentation,str,4,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+03_oulad,vle.csv,activity_type,str,20,0,0.0,Feature,False,True,False,False,None,None,False,False
+03_oulad,vle.csv,week_from,float64,30,5243,82.3852922690132,Feature,True,False,False,False,None,None,False,False
+03_oulad,vle.csv,week_to,float64,30,5243,82.3852922690132,Feature,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,student_id,int64,50000,0,0.0,ID / Relationship Key,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,age,int64,32,0,0.0,Feature,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,gender,str,2,0,0.0,Feature,False,True,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,country,str,6,0,0.0,Feature,False,True,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,device_type,str,3,0,0.0,Feature,False,True,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,internet_speed_mbps,float64,7413,0,0.0,Feature,True,False,False,False,None,353 outliers (IQR method),False,False
+04_online_engagement,online_learning_engagement_dataset.csv,study_hours_weekly,float64,2388,0,0.0,Feature,True,False,False,False,None,379 outliers (IQR method),False,False
+04_online_engagement,online_learning_engagement_dataset.csv,login_frequency_weekly,int64,14,0,0.0,Feature,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,avg_session_duration_min,float64,50000,0,0.0,Feature,True,False,False,False,None,364 outliers (IQR method),False,False
+04_online_engagement,online_learning_engagement_dataset.csv,video_watch_time_min,float64,50000,0,0.0,ID / Relationship Key,True,False,True,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,assignments_submitted,int64,10,0,0.0,Feature,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,forum_posts,int64,15,0,0.0,Feature,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,quiz_attempts,int64,7,0,0.0,Feature,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,avg_quiz_score,float64,7453,0,0.0,Feature,True,False,False,False,None,333 outliers (IQR method),False,False
+04_online_engagement,online_learning_engagement_dataset.csv,attendance_rate,float64,61,0,0.0,Feature,True,False,False,False,None,None,False,False
+04_online_engagement,online_learning_engagement_dataset.csv,engagement_score,float64,50000,0,0.0,Feature,True,False,False,False,None,321 outliers (IQR method),False,False
+04_online_engagement,online_learning_engagement_dataset.csv,final_grade,float64,50000,0,0.0,Feature,True,False,False,False,None,351 outliers (IQR method),False,False
+04_online_engagement,online_learning_engagement_dataset.csv,dropout,int64,2,0,0.0,Target / Label,True,False,False,False,None,None,False,True
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Date,datetime64[us],670,0,0.0,Feature,False,False,True,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],CampaignID,str,5,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],CampaignName,str,5,0,0.0,Feature,False,True,False,False,None,None,True,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Platform,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],TargetAudience,str,4,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Impressions,int64,761,0,0.0,Feature,True,False,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Clicks,int64,748,0,0.0,Feature,True,False,False,False,None,2 outliers (IQR method),False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Leads,int64,672,0,0.0,Target / Label,True,False,False,False,None,12 outliers (IQR method),False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Applications,int64,621,0,0.0,Feature,True,False,False,False,None,12 outliers (IQR method),False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Enrollments,int64,530,0,0.0,Target / Label,True,False,False,False,None,14 outliers (IQR method),False,True
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Cost (₹),float64,763,0,0.0,Feature,True,False,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Revenue (₹),float64,763,0,0.0,Feature,True,False,False,False,None,22 outliers (IQR method),False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Region,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],CampaignID,str,5,0,0.0,ID / Relationship Key,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Objective,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],StartDate,str,5,0,0.0,Feature,False,False,True,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],EndDate,str,5,0,0.0,Feature,False,False,True,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Budget (₹),int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Campaign Type,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Creative Type,str,4,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Manager,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Channel,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Conversion Goal,str,4,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],Channel,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],AvgCPM,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],AvgCPC,int64,5,0,0.0,Feature,True,False,False,False,None,None,False,False
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],Remarks,str,5,0,0.0,Feature,False,True,False,False,None,None,False,False

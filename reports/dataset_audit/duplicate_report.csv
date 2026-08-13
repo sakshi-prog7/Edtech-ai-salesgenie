@@ -1,0 +1,15 @@
+DatasetName,FileName,DuplicateCount,DuplicatePct
+01_student_performance,student-mat.csv,0,0.0
+01_student_performance,student-por.csv,0,0.0
+02_student_dropout,data.csv,0,0.0
+03_oulad,assessments.csv,0,0.0
+03_oulad,courses.csv,0,0.0
+03_oulad,studentAssessment.csv,0,0.0
+03_oulad,studentInfo.csv,0,0.0
+03_oulad,studentRegistration.csv,0,0.0
+03_oulad,studentVle.csv,787170,7.387605018357096
+03_oulad,vle.csv,0,0.0
+04_online_engagement,online_learning_engagement_dataset.csv,0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],0,0.0
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],0,0.0

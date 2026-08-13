@@ -1,0 +1,15 @@
+dataset,file,duplicate_count_before,duplicate_count_after
+01_student_performance,student_math.csv,0,0
+01_student_performance,student_portuguese.csv,0,0
+02_student_dropout,student_dropout.csv,0,0
+03_oulad,courses.parquet,0,0
+03_oulad,assessments.parquet,0,0
+03_oulad,vle.parquet,0,0
+03_oulad,studentInfo.parquet,0,0
+03_oulad,studentRegistration.parquet,0,0
+03_oulad,studentAssessment.parquet,0,0
+03_oulad,studentVle.parquet,787170,0
+04_online_engagement,online_learning_engagement.csv,0,0
+05_education_marketing,marketing_campaignperformance.csv,0,0
+05_education_marketing,marketing_campaignmeta.csv,0,0
+05_education_marketing,marketing_channelrates.csv,0,0
