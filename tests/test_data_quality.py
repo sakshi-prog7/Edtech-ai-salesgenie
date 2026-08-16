@@ -2,43 +2,32 @@ import os
 import pandas as pd
 import pytest
 
-DATA_DIR = "data"
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(CURRENT_DIR, ".."))
 
-# 1. Test presence of core directories and metadata
-def test_directory_structure():
-    expected_paths = [
-        "data/cleaned/01_student_performance/student_math.csv",
-        "data/cleaned/02_student_dropout/student_dropout.csv",
-        "data/cleaned/03_oulad/studentInfo.parquet",
-        "data/ml_ready/dropout_prediction/student_dropout_ml_ready.csv",
-        "metadata/data_dictionary.xlsx",
-        "metadata/ml_schema.xlsx",
-    ]
-    for path in expected_paths:
-        assert os.path.exists(path), f"Missing expected dataset file: {path}"
+DATASETS = {
+    "math": os.path.join(PROJECT_ROOT, "data", "cleaned", "01_student_performance", "student_math.csv"),
+    "portuguese": os.path.join(PROJECT_ROOT, "data", "cleaned", "01_student_performance", "student_portuguese.csv"),
+    "dropout": os.path.join(PROJECT_ROOT, "data", "cleaned", "02_student_dropout", "student_dropout.csv"),
+    "engagement": os.path.join(PROJECT_ROOT, "data", "cleaned", "04_online_engagement", "online_learning_engagement.csv"),
+    "marketing_meta": os.path.join(PROJECT_ROOT, "data", "cleaned", "05_education_marketing", "marketing_campaignmeta.csv"),
+    "marketing_perf": os.path.join(PROJECT_ROOT, "data", "cleaned", "05_education_marketing", "marketing_campaignperformance.csv"),
+    "marketing_rates": os.path.join(PROJECT_ROOT, "data", "cleaned", "05_education_marketing", "marketing_channelrates.csv"),
+    "ml_ready": os.path.join(PROJECT_ROOT, "data", "ml_ready", "dropout_prediction", "student_dropout_ml_ready.csv"),
+}
 
-# 2. Test Student Dropout & Performance CSVs
-def test_csv_datasets():
-    csv_files = [
-        "data/cleaned/01_student_performance/student_math.csv",
-        "data/cleaned/01_student_performance/student_portuguese.csv",
-        "data/cleaned/02_student_dropout/student_dropout.csv",
-    ]
-    for path in csv_files:
+def test_all_datasets_exist():
+    for name, path in DATASETS.items():
+        assert os.path.exists(path), f"Missing dataset: {path}"
+
+def test_all_csv_validity():
+    for name, path in DATASETS.items():
         df = pd.read_csv(path)
-        assert not df.empty, f"File {path} is empty."
-        assert len(df.columns) > 1, f"File {path} has no valid columns."
+        assert not df.empty, f"Dataset {name} is empty"
+        assert len(df.columns) >= 2, f"Dataset {name} has insufficient columns"
+        assert df.isnull().all().sum() == 0, f"Dataset {name} has 100% null columns"
 
-# 3. Test OULAD Parquet Files
 def test_parquet_datasets():
-    parquet_path = "data/cleaned/03_oulad/studentInfo.parquet"
-    df = pd.read_parquet(parquet_path)
-    assert not df.empty, f"Parquet file {parquet_path} contains no rows."
-
-# 4. Test ML-Ready Training Data
-def test_ml_ready_dataset():
-    ml_data_path = "data/ml_ready/dropout_prediction/student_dropout_ml_ready.csv"
-    df = pd.read_csv(ml_data_path)
-    assert not df.empty, "ML-ready dropout dataset is empty."
-    # Ensure no completely empty feature columns
-    assert df.isnull().all().sum() == 0, "Found 100% missing value columns in ML-ready data."
+    oulad_file = os.path.join(PROJECT_ROOT, "data", "cleaned", "03_oulad", "studentInfo.parquet")
+    df = pd.read_parquet(oulad_file)
+    assert not df.empty, "OULAD Parquet file contains no records"

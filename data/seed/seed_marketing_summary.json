@@ -1,0 +1,52 @@
+[
+  {
+    "platform": "Facebook",
+    "impressions": 31329302,
+    "clicks": 1740443,
+    "leads": 350452,
+    "applications": 191054,
+    "enrollments": 94199,
+    "cost": 22051324.43,
+    "revenue": 517275867.83
+  },
+  {
+    "platform": "Google Ads",
+    "impressions": 31963554,
+    "clicks": 1751859,
+    "leads": 346441,
+    "applications": 190327,
+    "enrollments": 95402,
+    "cost": 23158075.68,
+    "revenue": 531973533.88
+  },
+  {
+    "platform": "Instagram",
+    "impressions": 24699279,
+    "clicks": 1347998,
+    "leads": 270522,
+    "applications": 148302,
+    "enrollments": 75249,
+    "cost": 17285042.28,
+    "revenue": 414974739.57
+  },
+  {
+    "platform": "LinkedIn",
+    "impressions": 26146791,
+    "clicks": 1460099,
+    "leads": 292161,
+    "applications": 163739,
+    "enrollments": 83522,
+    "cost": 18258974.94,
+    "revenue": 464609915.19
+  },
+  {
+    "platform": "YouTube",
+    "impressions": 15019263,
+    "clicks": 838013,
+    "leads": 161708,
+    "applications": 90194,
+    "enrollments": 43942,
+    "cost": 10694713.86,
+    "revenue": 236628518.73
+  }
+]
