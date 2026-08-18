@@ -2,3 +2,7 @@
 __pycache__/
 .env
 *.pyc
+edtech_crm.db
+__pycache__/
+.pytest_cache/
+*.pkl
