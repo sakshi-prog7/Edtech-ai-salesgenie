@@ -1,53 +1,59 @@
-# EdTech AI Backend Microservice (SalesGenie)
+# 🎓 SalesGenie AI Microservice — EdTech Intelligence Suite
 
-A  production-ready FastAPI microservice powering AI-driven student analytics, risk prediction, and course recommendations for the EdTech SalesGenie platform.
-
----
-
-##  Features & Endpoints
-
-The API provides the following core endpoints:
-* **Student Dropout Warning (`/predict-dropout`):** Evaluates student engagement metrics and predicts at-risk students with confidence scores.
-
-* **Lead Scoring (`/predict-lead-score`):** I tried to train an ML model using the dataset to provide the lead scores but its not working well as expected.For most leads its giving like above 95 percent and for avg leads its giving very poor lead scores.So thought of Utilizing a calibrated heuristic/rule-based engine to evaluate sales leads and calculate conversion probabilities.
-
-* **Course Recommendation (`/recommend-course`):** Leverages TF-IDF vectorization and cosine similarity with built-in deduplication to recommend 3 unique, highly relevant courses.
-
-* **Student Profiling & Sales Forecasting:** Processes student behavior features and forecasts future trends.
-git commit -m "Update README with detailed context on lead scoring heuristic"
----
-
-##  Tech Stack
-* **Framework:** FastAPI, Uvicorn
-* **Machine Learning & Data:** Scikit-Learn, Pandas, NumPy, Joblib
-* **Version Control:** Git & GitHub
+A high-performance machine learning microservice built with **FastAPI** to power intelligent student operations across sales, retention, personalized learning recommendations, and revenue forecasting.
 
 ---
 
-## Installation & Setup
+## 📌 System Architecture & Machine Learning Modules
 
-Follow these steps to set up and run the backend locally on your machine:
+The microservice consolidates **5 dedicated AI/ML pipelines**:
 
-### **1. Clone the Repository & Switch to your Branch**
-```bash
-git clone [https://github.com/sakshi-prog7/Edtech-ai-salesgenie.git](https://github.com/sakshi-prog7/Edtech-ai-salesgenie.git)
+| # | Feature / Endpoint | Model Architecture | Primary Artifact | Objective |
+|---|---|---|---|---|
+| **1** | **Hybrid Lead Scoring** (`/predict-lead-score`) | Gradient Boosting Classifier + Behavioral Momentum Index | `lead_scoring_model.pkl` | Identifies high-intent student leads and assigns priority action directives. |
+| **2** | **Dropout Risk Warning** (`/predict-dropout`) | Random Forest Classifier | `dropout_warning_model.pkl` | Predicts course drop-out probability and engagement risk. |
+| **3** | **Course Recommendation** (`/recommend-course`) | TF-IDF Vectorization + Cosine Similarity | `course_recommendation_model_light.pkl` | Generates top-3 personalized course recommendations based on interests. |
+| **4** | **Student Profiling** (`/student-profile`) | Rule-based NLP Categorical Classifier | `student_profiling_vectorizer.pkl` | Maps student background and style to 6 professional career tracks. |
+| **5** | **Revenue Forecasting** (`/forecast-sales`) | Time Series ARIMA(1, 1, 1) | `sales_forecasting_model.pkl` | Projects rolling 3-month sales and revenue trajectories. |
+
+---
+
+## 📂 Repository File Structure
+
+```text
+EDTECH AI/
+├── ed38976-edd_cleaned.csv               # Cleaned interaction dataset (14,101 records)
+├── ranked_counselor_14k_leads.csv        # Pre-scored priority queue for counselor CRM
+├── Edtech_AI_Training.ipynb              # Notebook: Dropout, Recommendations, Profiling, Forecasting
+├── lead_scoring.ipynb                    # Notebook: Gradient Boosting Lead Scoring pipeline
+├── course_recommendation_model_light.pkl # Serialized TF-IDF model & course metadata
+├── dropout_warning_model.pkl             # Serialized Random Forest dropout classifier
+├── lead_scoring_model.pkl                # Serialized Gradient Boosting lead scoring model
+├── sales_forecasting_model.pkl           # Serialized ARIMA revenue forecasting model
+├── student_profiling_vectorizer.pkl      # Serialized student profiling vectorizer
+├── main.py                               # FastAPI core application & API routing[cite: 2]
+├── requirements.txt                      # Project dependency requirements[cite: 2]
+└── README.md                             # System documentation
+
+🚀 Quickstart & Local Setup
+1. Clone & Set Up Virtual Environment
+Bash
+# Clone the repository
+git clone [https://github.com/AdithyanAnil0011/Edtech-ai-salesgenie.git](https://github.com/AdithyanAnil0011/Edtech-ai-salesgenie.git)
 cd Edtech-ai-salesgenie
-git checkout Adithyan
 
-
+# Create and activate virtual environment
 python -m venv .venv
-# On Windows:
+
+# Windows:
 .venv\Scripts\activate
-# On macOS/Linux:
+# Linux/macOS:
 source .venv/bin/activate
 
-Install Dependencies
+2. Install Dependencies
+Bash
 pip install -r requirements.txt
-
-Run the FastAPI Server
-python -m uvicorn main:app --reload
-
-API Documentation & Testing
-Once the server is running, you can interact with and test all endpoints live using the interactive Swagger UI documentation:
-
-URL: http://127.0.0.1:8000/docs
+3. Run the Microservice
+Bash
+uvicorn main:app --reload --port 8000
+Open http://127.0.0.1:8000/docs to access the interactive Swagger UI[cite: 2].
