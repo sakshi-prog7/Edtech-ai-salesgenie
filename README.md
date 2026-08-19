@@ -14,7 +14,7 @@ The API provides the following core endpoints:
 * **Course Recommendation (`/recommend-course`):** Leverages TF-IDF vectorization and cosine similarity with built-in deduplication to recommend 3 unique, highly relevant courses.
 
 * **Student Profiling & Sales Forecasting:** Processes student behavior features and forecasts future trends.
-
+git commit -m "Update README with detailed context on lead scoring heuristic"
 ---
 
 ##  Tech Stack
