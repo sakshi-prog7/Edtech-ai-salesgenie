@@ -3,8 +3,16 @@ from typing import Optional
 from pydantic import BaseModel, EmailStr, ConfigDict
 
 # ==========================================
-# AUTHENTICATION SCHEMAS
+# AUTHENTICATION & JWT SCHEMAS
 # ==========================================
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+class TokenData(BaseModel):
+    email: Optional[str] = None
+    role: Optional[str] = None
+
 class UserRegister(BaseModel):
     full_name: str
     email: EmailStr
