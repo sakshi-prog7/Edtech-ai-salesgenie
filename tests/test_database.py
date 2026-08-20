@@ -10,9 +10,16 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 from main import app
-from db.database import engine
+from db.database import engine, Base
+from scripts.seed_database import seed_all_datasets
 
 client = TestClient(app)
+
+@pytest.fixture(scope="session", autouse=True)
+def setup_test_database():
+    """Ensures database tables are created and seeded before running test suite on CI."""
+    seed_all_datasets()
+    yield
 
 def test_database_tables_populated():
     tables = [
