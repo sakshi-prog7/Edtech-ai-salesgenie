@@ -1,0 +1,15 @@
+DatasetName,FileName,FilePath,FileType,Rows,Columns,FileSizeKB,DuplicateRowsCount,DuplicateRowsPct,IsRelevant,Role
+01_student_performance,student-mat.csv,ALL UNCLEANED DS/01_student_performance/student/student-mat.csv,CSV,395,33,55.6572265625,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+01_student_performance,student-por.csv,ALL UNCLEANED DS/01_student_performance/student/student-por.csv,CSV,649,33,91.03515625,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+02_student_dropout,data.csv,ALL UNCLEANED DS/02_student_dropout/data.csv,CSV,4424,37,520.732421875,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+03_oulad,assessments.csv,ALL UNCLEANED DS/03_oulad/assessments.csv,CSV,206,6,8.0078125,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+03_oulad,courses.csv,ALL UNCLEANED DS/03_oulad/courses.csv,CSV,22,3,0.513671875,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+03_oulad,studentAssessment.csv,ALL UNCLEANED DS/03_oulad/studentAssessment.csv,CSV,173912,5,5556.943359375,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+03_oulad,studentInfo.csv,ALL UNCLEANED DS/03_oulad/studentInfo.csv,CSV,32593,12,3380.51953125,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+03_oulad,studentRegistration.csv,ALL UNCLEANED DS/03_oulad/studentRegistration.csv,CSV,32593,5,1083.96875,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+03_oulad,studentVle.csv,ALL UNCLEANED DS/03_oulad/studentVle.csv,CSV,10655280,6,443199.5419921875,787170,7.387605018357096,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+03_oulad,vle.csv,ALL UNCLEANED DS/03_oulad/vle.csv,CSV,6364,6,254.029296875,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+04_online_engagement,online_learning_engagement_dataset.csv,ALL UNCLEANED DS/04_online_engagement/online_learning_engagement_dataset.csv,CSV,50000,18,6594.2861328125,0,0.0,Yes,"Predictive modeling for dropout, engagement, performance or CRM mapping"
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],ALL UNCLEANED DS/05_education_marketing/Marketing_Campaign_Data.xlsx,XLSX Sheet,763,13,75.3369140625,0,0.0,Yes,Marketing Analytics and ROI tracking [Sheet: CampaignPerformance]
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],ALL UNCLEANED DS/05_education_marketing/Marketing_Campaign_Data.xlsx,XLSX Sheet,5,10,75.3369140625,0,0.0,Yes,Marketing Analytics and ROI tracking [Sheet: CampaignMeta]
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],ALL UNCLEANED DS/05_education_marketing/Marketing_Campaign_Data.xlsx,XLSX Sheet,5,4,75.3369140625,0,0.0,Yes,Marketing Analytics and ROI tracking [Sheet: ChannelRates]

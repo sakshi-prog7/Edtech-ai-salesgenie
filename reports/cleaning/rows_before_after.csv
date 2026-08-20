@@ -1,0 +1,15 @@
+dataset,file,rows_before,rows_after,rows_removed,cols_before,cols_after
+01_student_performance,student_math.csv,395,395,0,33,33
+01_student_performance,student_portuguese.csv,649,649,0,33,33
+02_student_dropout,student_dropout.csv,4424,4424,0,37,37
+03_oulad,courses.parquet,22,22,0,3,3
+03_oulad,assessments.parquet,206,206,0,6,6
+03_oulad,vle.parquet,6364,6364,0,6,6
+03_oulad,studentInfo.parquet,32593,32593,0,12,12
+03_oulad,studentRegistration.parquet,32593,32593,0,5,6
+03_oulad,studentAssessment.parquet,173912,173912,0,5,5
+03_oulad,studentVle.parquet,10655280,9868110,787170,6,6
+04_online_engagement,online_learning_engagement.csv,50000,50000,0,18,18
+05_education_marketing,marketing_campaignperformance.csv,763,763,0,13,13
+05_education_marketing,marketing_campaignmeta.csv,5,5,0,10,10
+05_education_marketing,marketing_channelrates.csv,5,5,0,4,4

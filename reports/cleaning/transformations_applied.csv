@@ -1,0 +1,151 @@
+dataset,file,original_column,transformation,reason,before_state,after_state
+01_student_performance,student/student-mat.csv,school,Standardize column name,Ensure consistent lowercase snake_case,school,school
+01_student_performance,student/student-mat.csv,sex,Standardize column name,Ensure consistent lowercase snake_case,sex,sex
+01_student_performance,student/student-mat.csv,age,Standardize column name,Ensure consistent lowercase snake_case,age,age
+01_student_performance,student/student-mat.csv,address,Standardize column name,Ensure consistent lowercase snake_case,address,address
+01_student_performance,student/student-mat.csv,famsize,Standardize column name,Ensure consistent lowercase snake_case,famsize,famsize
+01_student_performance,student/student-mat.csv,Pstatus,Standardize column name,Ensure consistent lowercase snake_case,Pstatus,pstatus
+01_student_performance,student/student-mat.csv,Medu,Standardize column name,Ensure consistent lowercase snake_case,Medu,medu
+01_student_performance,student/student-mat.csv,Fedu,Standardize column name,Ensure consistent lowercase snake_case,Fedu,fedu
+01_student_performance,student/student-mat.csv,Mjob,Standardize column name,Ensure consistent lowercase snake_case,Mjob,mjob
+01_student_performance,student/student-mat.csv,Fjob,Standardize column name,Ensure consistent lowercase snake_case,Fjob,fjob
+01_student_performance,student/student-mat.csv,reason,Standardize column name,Ensure consistent lowercase snake_case,reason,reason
+01_student_performance,student/student-mat.csv,guardian,Standardize column name,Ensure consistent lowercase snake_case,guardian,guardian
+01_student_performance,student/student-mat.csv,traveltime,Standardize column name,Ensure consistent lowercase snake_case,traveltime,traveltime
+01_student_performance,student/student-mat.csv,studytime,Standardize column name,Ensure consistent lowercase snake_case,studytime,studytime
+01_student_performance,student/student-mat.csv,failures,Standardize column name,Ensure consistent lowercase snake_case,failures,failures
+01_student_performance,student/student-mat.csv,schoolsup,Standardize column name,Ensure consistent lowercase snake_case,schoolsup,schoolsup
+01_student_performance,student/student-mat.csv,famsup,Standardize column name,Ensure consistent lowercase snake_case,famsup,famsup
+01_student_performance,student/student-mat.csv,paid,Standardize column name,Ensure consistent lowercase snake_case,paid,paid
+01_student_performance,student/student-mat.csv,activities,Standardize column name,Ensure consistent lowercase snake_case,activities,activities
+01_student_performance,student/student-mat.csv,nursery,Standardize column name,Ensure consistent lowercase snake_case,nursery,nursery
+01_student_performance,student/student-mat.csv,higher,Standardize column name,Ensure consistent lowercase snake_case,higher,higher
+01_student_performance,student/student-mat.csv,internet,Standardize column name,Ensure consistent lowercase snake_case,internet,internet
+01_student_performance,student/student-mat.csv,romantic,Standardize column name,Ensure consistent lowercase snake_case,romantic,romantic
+01_student_performance,student/student-mat.csv,famrel,Standardize column name,Ensure consistent lowercase snake_case,famrel,famrel
+01_student_performance,student/student-mat.csv,freetime,Standardize column name,Ensure consistent lowercase snake_case,freetime,freetime
+01_student_performance,student/student-mat.csv,goout,Standardize column name,Ensure consistent lowercase snake_case,goout,goout
+01_student_performance,student/student-mat.csv,Dalc,Standardize column name,Ensure consistent lowercase snake_case,Dalc,dalc
+01_student_performance,student/student-mat.csv,Walc,Standardize column name,Ensure consistent lowercase snake_case,Walc,walc
+01_student_performance,student/student-mat.csv,health,Standardize column name,Ensure consistent lowercase snake_case,health,health
+01_student_performance,student/student-mat.csv,absences,Standardize column name,Ensure consistent lowercase snake_case,absences,absences
+01_student_performance,student/student-mat.csv,G1,Standardize column name,Ensure consistent lowercase snake_case,G1,g1
+01_student_performance,student/student-mat.csv,G2,Standardize column name,Ensure consistent lowercase snake_case,G2,g2
+01_student_performance,student/student-mat.csv,G3,Standardize column name,Ensure consistent lowercase snake_case,G3,g3
+01_student_performance,student/student-por.csv,school,Standardize column name,Ensure consistent lowercase snake_case,school,school
+01_student_performance,student/student-por.csv,sex,Standardize column name,Ensure consistent lowercase snake_case,sex,sex
+01_student_performance,student/student-por.csv,age,Standardize column name,Ensure consistent lowercase snake_case,age,age
+01_student_performance,student/student-por.csv,address,Standardize column name,Ensure consistent lowercase snake_case,address,address
+01_student_performance,student/student-por.csv,famsize,Standardize column name,Ensure consistent lowercase snake_case,famsize,famsize
+01_student_performance,student/student-por.csv,Pstatus,Standardize column name,Ensure consistent lowercase snake_case,Pstatus,pstatus
+01_student_performance,student/student-por.csv,Medu,Standardize column name,Ensure consistent lowercase snake_case,Medu,medu
+01_student_performance,student/student-por.csv,Fedu,Standardize column name,Ensure consistent lowercase snake_case,Fedu,fedu
+01_student_performance,student/student-por.csv,Mjob,Standardize column name,Ensure consistent lowercase snake_case,Mjob,mjob
+01_student_performance,student/student-por.csv,Fjob,Standardize column name,Ensure consistent lowercase snake_case,Fjob,fjob
+01_student_performance,student/student-por.csv,reason,Standardize column name,Ensure consistent lowercase snake_case,reason,reason
+01_student_performance,student/student-por.csv,guardian,Standardize column name,Ensure consistent lowercase snake_case,guardian,guardian
+01_student_performance,student/student-por.csv,traveltime,Standardize column name,Ensure consistent lowercase snake_case,traveltime,traveltime
+01_student_performance,student/student-por.csv,studytime,Standardize column name,Ensure consistent lowercase snake_case,studytime,studytime
+01_student_performance,student/student-por.csv,failures,Standardize column name,Ensure consistent lowercase snake_case,failures,failures
+01_student_performance,student/student-por.csv,schoolsup,Standardize column name,Ensure consistent lowercase snake_case,schoolsup,schoolsup
+01_student_performance,student/student-por.csv,famsup,Standardize column name,Ensure consistent lowercase snake_case,famsup,famsup
+01_student_performance,student/student-por.csv,paid,Standardize column name,Ensure consistent lowercase snake_case,paid,paid
+01_student_performance,student/student-por.csv,activities,Standardize column name,Ensure consistent lowercase snake_case,activities,activities
+01_student_performance,student/student-por.csv,nursery,Standardize column name,Ensure consistent lowercase snake_case,nursery,nursery
+01_student_performance,student/student-por.csv,higher,Standardize column name,Ensure consistent lowercase snake_case,higher,higher
+01_student_performance,student/student-por.csv,internet,Standardize column name,Ensure consistent lowercase snake_case,internet,internet
+01_student_performance,student/student-por.csv,romantic,Standardize column name,Ensure consistent lowercase snake_case,romantic,romantic
+01_student_performance,student/student-por.csv,famrel,Standardize column name,Ensure consistent lowercase snake_case,famrel,famrel
+01_student_performance,student/student-por.csv,freetime,Standardize column name,Ensure consistent lowercase snake_case,freetime,freetime
+01_student_performance,student/student-por.csv,goout,Standardize column name,Ensure consistent lowercase snake_case,goout,goout
+01_student_performance,student/student-por.csv,Dalc,Standardize column name,Ensure consistent lowercase snake_case,Dalc,dalc
+01_student_performance,student/student-por.csv,Walc,Standardize column name,Ensure consistent lowercase snake_case,Walc,walc
+01_student_performance,student/student-por.csv,health,Standardize column name,Ensure consistent lowercase snake_case,health,health
+01_student_performance,student/student-por.csv,absences,Standardize column name,Ensure consistent lowercase snake_case,absences,absences
+01_student_performance,student/student-por.csv,G1,Standardize column name,Ensure consistent lowercase snake_case,G1,g1
+01_student_performance,student/student-por.csv,G2,Standardize column name,Ensure consistent lowercase snake_case,G2,g2
+01_student_performance,student/student-por.csv,G3,Standardize column name,Ensure consistent lowercase snake_case,G3,g3
+02_student_dropout,data.csv,Marital status,Standardize column name,Ensure consistent lowercase snake_case,Marital status,marital_status
+02_student_dropout,data.csv,Application mode,Standardize column name,Ensure consistent lowercase snake_case,Application mode,application_mode
+02_student_dropout,data.csv,Application order,Standardize column name,Ensure consistent lowercase snake_case,Application order,application_order
+02_student_dropout,data.csv,Course,Standardize column name,Ensure consistent lowercase snake_case,Course,course
+02_student_dropout,data.csv,Daytime/evening attendance	,Standardize column name,Ensure consistent lowercase snake_case,Daytime/evening attendance	,daytime_evening_attendance
+02_student_dropout,data.csv,Previous qualification,Standardize column name,Ensure consistent lowercase snake_case,Previous qualification,previous_qualification
+02_student_dropout,data.csv,Previous qualification (grade),Standardize column name,Ensure consistent lowercase snake_case,Previous qualification (grade),previous_qualification_grade
+02_student_dropout,data.csv,Nacionality,Standardize column name,Ensure consistent lowercase snake_case,Nacionality,nacionality
+02_student_dropout,data.csv,Mother's qualification,Standardize column name,Ensure consistent lowercase snake_case,Mother's qualification,mother_s_qualification
+02_student_dropout,data.csv,Father's qualification,Standardize column name,Ensure consistent lowercase snake_case,Father's qualification,father_s_qualification
+02_student_dropout,data.csv,Mother's occupation,Standardize column name,Ensure consistent lowercase snake_case,Mother's occupation,mother_s_occupation
+02_student_dropout,data.csv,Father's occupation,Standardize column name,Ensure consistent lowercase snake_case,Father's occupation,father_s_occupation
+02_student_dropout,data.csv,Admission grade,Standardize column name,Ensure consistent lowercase snake_case,Admission grade,admission_grade
+02_student_dropout,data.csv,Displaced,Standardize column name,Ensure consistent lowercase snake_case,Displaced,displaced
+02_student_dropout,data.csv,Educational special needs,Standardize column name,Ensure consistent lowercase snake_case,Educational special needs,educational_special_needs
+02_student_dropout,data.csv,Debtor,Standardize column name,Ensure consistent lowercase snake_case,Debtor,debtor
+02_student_dropout,data.csv,Tuition fees up to date,Standardize column name,Ensure consistent lowercase snake_case,Tuition fees up to date,tuition_fees_up_to_date
+02_student_dropout,data.csv,Gender,Standardize column name,Ensure consistent lowercase snake_case,Gender,gender
+02_student_dropout,data.csv,Scholarship holder,Standardize column name,Ensure consistent lowercase snake_case,Scholarship holder,scholarship_holder
+02_student_dropout,data.csv,Age at enrollment,Standardize column name,Ensure consistent lowercase snake_case,Age at enrollment,age_at_enrollment
+02_student_dropout,data.csv,International,Standardize column name,Ensure consistent lowercase snake_case,International,international
+02_student_dropout,data.csv,Curricular units 1st sem (credited),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 1st sem (credited),curricular_units_1st_sem_credited
+02_student_dropout,data.csv,Curricular units 1st sem (enrolled),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 1st sem (enrolled),curricular_units_1st_sem_enrolled
+02_student_dropout,data.csv,Curricular units 1st sem (evaluations),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 1st sem (evaluations),curricular_units_1st_sem_evaluations
+02_student_dropout,data.csv,Curricular units 1st sem (approved),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 1st sem (approved),curricular_units_1st_sem_approved
+02_student_dropout,data.csv,Curricular units 1st sem (grade),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 1st sem (grade),curricular_units_1st_sem_grade
+02_student_dropout,data.csv,Curricular units 1st sem (without evaluations),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 1st sem (without evaluations),curricular_units_1st_sem_without_evaluations
+02_student_dropout,data.csv,Curricular units 2nd sem (credited),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 2nd sem (credited),curricular_units_2nd_sem_credited
+02_student_dropout,data.csv,Curricular units 2nd sem (enrolled),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 2nd sem (enrolled),curricular_units_2nd_sem_enrolled
+02_student_dropout,data.csv,Curricular units 2nd sem (evaluations),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 2nd sem (evaluations),curricular_units_2nd_sem_evaluations
+02_student_dropout,data.csv,Curricular units 2nd sem (approved),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 2nd sem (approved),curricular_units_2nd_sem_approved
+02_student_dropout,data.csv,Curricular units 2nd sem (grade),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 2nd sem (grade),curricular_units_2nd_sem_grade
+02_student_dropout,data.csv,Curricular units 2nd sem (without evaluations),Standardize column name,Ensure consistent lowercase snake_case,Curricular units 2nd sem (without evaluations),curricular_units_2nd_sem_without_evaluations
+02_student_dropout,data.csv,Unemployment rate,Standardize column name,Ensure consistent lowercase snake_case,Unemployment rate,unemployment_rate
+02_student_dropout,data.csv,Inflation rate,Standardize column name,Ensure consistent lowercase snake_case,Inflation rate,inflation_rate
+02_student_dropout,data.csv,GDP,Standardize column name,Ensure consistent lowercase snake_case,GDP,gdp
+02_student_dropout,data.csv,Target,Standardize column name,Ensure consistent lowercase snake_case,Target,target
+03_oulad,studentInfo.csv,imd_band,Fillna with 'unknown',Socioeconomic data missing; map to explicit unknown category,NaN,unknown
+03_oulad,studentRegistration.csv,date_unregistration,Create unregistered_flag indicator,Preserve semantic meaning of missing unregistration date,NaN,0/1 flag
+04_online_engagement,online_learning_engagement_dataset.csv,student_id,Standardize column name,Ensure consistent lowercase snake_case,student_id,student_id
+04_online_engagement,online_learning_engagement_dataset.csv,age,Standardize column name,Ensure consistent lowercase snake_case,age,age
+04_online_engagement,online_learning_engagement_dataset.csv,gender,Standardize column name,Ensure consistent lowercase snake_case,gender,gender
+04_online_engagement,online_learning_engagement_dataset.csv,country,Standardize column name,Ensure consistent lowercase snake_case,country,country
+04_online_engagement,online_learning_engagement_dataset.csv,device_type,Standardize column name,Ensure consistent lowercase snake_case,device_type,device_type
+04_online_engagement,online_learning_engagement_dataset.csv,internet_speed_mbps,Standardize column name,Ensure consistent lowercase snake_case,internet_speed_mbps,internet_speed_mbps
+04_online_engagement,online_learning_engagement_dataset.csv,study_hours_weekly,Standardize column name,Ensure consistent lowercase snake_case,study_hours_weekly,study_hours_weekly
+04_online_engagement,online_learning_engagement_dataset.csv,login_frequency_weekly,Standardize column name,Ensure consistent lowercase snake_case,login_frequency_weekly,login_frequency_weekly
+04_online_engagement,online_learning_engagement_dataset.csv,avg_session_duration_min,Standardize column name,Ensure consistent lowercase snake_case,avg_session_duration_min,avg_session_duration_min
+04_online_engagement,online_learning_engagement_dataset.csv,video_watch_time_min,Standardize column name,Ensure consistent lowercase snake_case,video_watch_time_min,video_watch_time_min
+04_online_engagement,online_learning_engagement_dataset.csv,assignments_submitted,Standardize column name,Ensure consistent lowercase snake_case,assignments_submitted,assignments_submitted
+04_online_engagement,online_learning_engagement_dataset.csv,forum_posts,Standardize column name,Ensure consistent lowercase snake_case,forum_posts,forum_posts
+04_online_engagement,online_learning_engagement_dataset.csv,quiz_attempts,Standardize column name,Ensure consistent lowercase snake_case,quiz_attempts,quiz_attempts
+04_online_engagement,online_learning_engagement_dataset.csv,avg_quiz_score,Standardize column name,Ensure consistent lowercase snake_case,avg_quiz_score,avg_quiz_score
+04_online_engagement,online_learning_engagement_dataset.csv,attendance_rate,Standardize column name,Ensure consistent lowercase snake_case,attendance_rate,attendance_rate
+04_online_engagement,online_learning_engagement_dataset.csv,engagement_score,Standardize column name,Ensure consistent lowercase snake_case,engagement_score,engagement_score
+04_online_engagement,online_learning_engagement_dataset.csv,final_grade,Standardize column name,Ensure consistent lowercase snake_case,final_grade,final_grade
+04_online_engagement,online_learning_engagement_dataset.csv,dropout,Standardize column name,Ensure consistent lowercase snake_case,dropout,dropout
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Date,Standardize column name,Ensure consistent lowercase snake_case,Date,date
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],CampaignID,Standardize column name,Ensure consistent lowercase snake_case,CampaignID,campaignid
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],CampaignName,Standardize column name,Ensure consistent lowercase snake_case,CampaignName,campaignname
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Platform,Standardize column name,Ensure consistent lowercase snake_case,Platform,platform
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],TargetAudience,Standardize column name,Ensure consistent lowercase snake_case,TargetAudience,targetaudience
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Impressions,Standardize column name,Ensure consistent lowercase snake_case,Impressions,impressions
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Clicks,Standardize column name,Ensure consistent lowercase snake_case,Clicks,clicks
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Leads,Standardize column name,Ensure consistent lowercase snake_case,Leads,leads
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Applications,Standardize column name,Ensure consistent lowercase snake_case,Applications,applications
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Enrollments,Standardize column name,Ensure consistent lowercase snake_case,Enrollments,enrollments
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Cost (₹),Standardize column name,Ensure consistent lowercase snake_case,Cost (₹),cost
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Revenue (₹),Standardize column name,Ensure consistent lowercase snake_case,Revenue (₹),revenue
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignPerformance],Region,Standardize column name,Ensure consistent lowercase snake_case,Region,region
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],CampaignID,Standardize column name,Ensure consistent lowercase snake_case,CampaignID,campaignid
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Objective,Standardize column name,Ensure consistent lowercase snake_case,Objective,objective
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],StartDate,Standardize column name,Ensure consistent lowercase snake_case,StartDate,startdate
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],EndDate,Standardize column name,Ensure consistent lowercase snake_case,EndDate,enddate
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Budget (₹),Standardize column name,Ensure consistent lowercase snake_case,Budget (₹),budget
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Campaign Type,Standardize column name,Ensure consistent lowercase snake_case,Campaign Type,campaign_type
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Creative Type,Standardize column name,Ensure consistent lowercase snake_case,Creative Type,creative_type
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Manager,Standardize column name,Ensure consistent lowercase snake_case,Manager,manager
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Channel,Standardize column name,Ensure consistent lowercase snake_case,Channel,channel
+05_education_marketing,Marketing_Campaign_Data.xlsx [CampaignMeta],Conversion Goal,Standardize column name,Ensure consistent lowercase snake_case,Conversion Goal,conversion_goal
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],Channel,Standardize column name,Ensure consistent lowercase snake_case,Channel,channel
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],AvgCPM,Standardize column name,Ensure consistent lowercase snake_case,AvgCPM,avgcpm
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],AvgCPC,Standardize column name,Ensure consistent lowercase snake_case,AvgCPC,avgcpc
+05_education_marketing,Marketing_Campaign_Data.xlsx [ChannelRates],Remarks,Standardize column name,Ensure consistent lowercase snake_case,Remarks,remarks

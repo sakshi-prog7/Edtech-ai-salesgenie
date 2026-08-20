@@ -1,0 +1,38 @@
+column,risk_category,reason,recommended_usage
+marital_status,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+application_mode,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+application_order,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+course,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+daytime_evening_attendance,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+previous_qualification,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+previous_qualification_grade,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+nacionality,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+mother_s_qualification,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+father_s_qualification,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+mother_s_occupation,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+father_s_occupation,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+admission_grade,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+displaced,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+educational_special_needs,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+debtor,Outcome / Post-enrollment information,Financial indicators showing payments or debts that accumulate during enrollment.,"Use for mid-term warning, not at lead stage."
+tuition_fees_up_to_date,Outcome / Post-enrollment information,Financial indicators showing payments or debts that accumulate during enrollment.,"Use for mid-term warning, not at lead stage."
+gender,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+scholarship_holder,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+age_at_enrollment,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+international,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+curricular_units_1st_sem_credited,Post-enrollment information,Contains performance statistics of the first semester.,"Use only for mid-term prediction, not for initial enrollment prediction."
+curricular_units_1st_sem_enrolled,Post-enrollment information,Contains performance statistics of the first semester.,"Use only for mid-term prediction, not for initial enrollment prediction."
+curricular_units_1st_sem_evaluations,Post-enrollment information,Contains performance statistics of the first semester.,"Use only for mid-term prediction, not for initial enrollment prediction."
+curricular_units_1st_sem_approved,Post-enrollment information,Contains performance statistics of the first semester.,"Use only for mid-term prediction, not for initial enrollment prediction."
+curricular_units_1st_sem_grade,Post-enrollment information,Contains performance statistics of the first semester.,"Use only for mid-term prediction, not for initial enrollment prediction."
+curricular_units_1st_sem_without_evaluations,Post-enrollment information,Contains performance statistics of the first semester.,"Use only for mid-term prediction, not for initial enrollment prediction."
+curricular_units_2nd_sem_credited,Potential leakage / Post-enrollment information,Contains grades and credits from the second semester; unavailable for early first-semester dropout prediction.,"Target/Evaluation variable, or analytical usage only."
+curricular_units_2nd_sem_enrolled,Potential leakage / Post-enrollment information,Contains grades and credits from the second semester; unavailable for early first-semester dropout prediction.,"Target/Evaluation variable, or analytical usage only."
+curricular_units_2nd_sem_evaluations,Potential leakage / Post-enrollment information,Contains grades and credits from the second semester; unavailable for early first-semester dropout prediction.,"Target/Evaluation variable, or analytical usage only."
+curricular_units_2nd_sem_approved,Potential leakage / Post-enrollment information,Contains grades and credits from the second semester; unavailable for early first-semester dropout prediction.,"Target/Evaluation variable, or analytical usage only."
+curricular_units_2nd_sem_grade,Potential leakage / Post-enrollment information,Contains grades and credits from the second semester; unavailable for early first-semester dropout prediction.,"Target/Evaluation variable, or analytical usage only."
+curricular_units_2nd_sem_without_evaluations,Potential leakage / Post-enrollment information,Contains grades and credits from the second semester; unavailable for early first-semester dropout prediction.,"Target/Evaluation variable, or analytical usage only."
+unemployment_rate,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+inflation_rate,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+gdp,Safe for early prediction,"Demographic, family qualification, and admission-stage information.",Primary features for lead scoring and conversion.
+target,Target / Label,"Direct outcome variable (Dropout, Graduate, Enrolled).",Target label.
