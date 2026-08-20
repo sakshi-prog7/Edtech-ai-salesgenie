@@ -31,10 +31,17 @@ backend/data
 backend/.env
 backend/tests/test_data
 
-# Generated dataset aggregates (built by 
-pm run data:aggregate)
+# Generated dataset aggregates
 public/data
 
 # Python cache
 __pycache__/
 *.py[cod]
+
+# Python virtual environment
+.venv/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
