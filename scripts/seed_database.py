@@ -8,14 +8,13 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 from db.database import engine, Base
-import db.models  # Registers all SQLAlchemy tables in Base.metadata
+import db.models
 from services.routing_engine import route_lead_workflow
 
 def load_csv(rel_path):
     full_path = os.path.join(PROJECT_ROOT, rel_path)
     if os.path.exists(full_path):
         return pd.read_csv(full_path)
-    print(f"[WARNING] Path not found: {full_path}")
     return None
 
 def seed_all_datasets():
@@ -23,7 +22,7 @@ def seed_all_datasets():
     Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
 
-    # 1. Student Performance
+    # 1. Student Academic Performance
     df_math = load_csv("data/cleaned/01_student_performance/student_math.csv")
     if df_math is not None:
         df_math["subject"] = "math"
@@ -36,13 +35,13 @@ def seed_all_datasets():
         df_port.to_sql("student_performance", con=engine, if_exists="append", index=False)
         print(f"[SUCCESS] Ingested {len(df_port)} rows (Portuguese Performance)")
 
-    # 2. Student Dropout
+    # 2. Student Dropout Monitoring
     df_dropout = load_csv("data/cleaned/02_student_dropout/student_dropout.csv")
     if df_dropout is not None:
         df_dropout.to_sql("student_dropout", con=engine, if_exists="append", index=False)
         print(f"[SUCCESS] Ingested {len(df_dropout)} rows (Dropout Risk Records)")
 
-    # 3. Online Engagement & AI Workflow Calculations
+    # 3. Online Learning Engagement & AI CRM Scoring
     df_eng = load_csv("data/cleaned/04_online_engagement/online_learning_engagement.csv")
     if df_eng is not None:
         scores, priorities, counselors, actions = [], [], [], []
@@ -60,7 +59,7 @@ def seed_all_datasets():
         df_eng.to_sql("online_learning_engagement", con=engine, if_exists="append", index=False)
         print(f"[SUCCESS] Ingested {len(df_eng)} rows (Scored Student Leads)")
 
-    # 4. Marketing Datasets
+    # 4. Education Marketing Datasets
     df_meta = load_csv("data/cleaned/05_education_marketing/marketing_campaignmeta.csv")
     if df_meta is not None:
         df_meta.to_sql("marketing_campaign_meta", con=engine, if_exists="append", index=False)
