@@ -31,7 +31,8 @@ backend/data
 backend/.env
 backend/tests/test_data
 
-# Generated dataset aggregates (built by `npm run data:aggregate`)
+# Generated dataset aggregates (built by 
+pm run data:aggregate)
 public/data
 
 # Python cache
