@@ -10,14 +10,14 @@ if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
 from main import app
-from db.database import engine, Base
+from db.database import engine
 from scripts.seed_database import seed_all_datasets
 
 client = TestClient(app)
 
 @pytest.fixture(scope="session", autouse=True)
 def setup_test_database():
-    """Ensures database tables are created and seeded before running test suite on CI."""
+    """Ensures database tables are seeded before running the test suite."""
     seed_all_datasets()
     yield
 
@@ -34,6 +34,7 @@ def test_database_tables_populated():
             assert count > 0, f"Table {tbl} is empty"
 
 def test_auth_and_login_flow():
+    # 1. Register test counselor
     reg_res = client.post("/api/auth/register", json={
         "full_name": "Counselor Varun",
         "email": "varun.crm@edtech.com",
@@ -42,16 +43,33 @@ def test_auth_and_login_flow():
     })
     assert reg_res.status_code in [200, 400]
 
+    # 2. Login to get JWT Bearer token
     login_res = client.post("/api/auth/login", json={
         "email": "varun.crm@edtech.com",
         "password": "Password123"
     })
     assert login_res.status_code == 200
-    assert login_res.json()["status"] == "success"
+    token_data = login_res.json()
+    assert "access_token" in token_data
+    assert token_data["token_type"] == "bearer"
 
 def test_dashboard_calculations():
-    res = client.get("/api/dashboard/overview")
+    # 1. Obtain Bearer token for protected route
+    login_res = client.post("/api/auth/login", json={
+        "email": "varun.crm@edtech.com",
+        "password": "Password123"
+    })
+    assert login_res.status_code == 200
+    token = login_res.json()["access_token"]
+    headers = {"Authorization": f"Bearer {token}"}
+
+    # 2. Test authenticated request
+    res = client.get("/api/dashboard/overview", headers=headers)
     assert res.status_code == 200
     data = res.json()
     assert data["total_leads"] > 0
     assert data["overall_roi_percentage"] > 0
+
+    # 3. Verify unauthenticated request is rejected
+    unauth_res = client.get("/api/dashboard/overview")
+    assert unauth_res.status_code == 401
