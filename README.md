@@ -21,19 +21,71 @@ The microservice consolidates **5 dedicated AI/ML pipelines**:
 ## 📂 Repository File Structure
 
 ```text
-EDTECH AI/
-├── ed38976-edd_cleaned.csv               # Cleaned interaction dataset (14,101 records)
-├── ranked_counselor_14k_leads.csv        # Pre-scored priority queue for counselor CRM
-├── Edtech_AI_Training.ipynb              # Notebook: Dropout, Recommendations, Profiling, Forecasting
-├── lead_scoring.ipynb                    # Notebook: Gradient Boosting Lead Scoring pipeline
-├── course_recommendation_model_light.pkl # Serialized TF-IDF model & course metadata
-├── dropout_warning_model.pkl             # Serialized Random Forest dropout classifier
-├── lead_scoring_model.pkl                # Serialized Gradient Boosting lead scoring model
-├── sales_forecasting_model.pkl           # Serialized ARIMA revenue forecasting model
-├── student_profiling_vectorizer.pkl      # Serialized student profiling vectorizer
-├── main.py                               # FastAPI core application & API routing[cite: 2]
-├── requirements.txt                      # Project dependency requirements[cite: 2]
-└── README.md                             # System documentation
+Edtech-ai-salesgenie/
+│
+├── .github/
+│   └── workflows/
+│       # GitHub Actions and CI workflows
+│
+├── backend/
+│   # Backend-related application components
+│
+├── data/
+│   # Project datasets and cleaned datasets
+│
+├── db/
+│   # Database configuration and ORM models
+│
+├── metadata/
+│   # Dataset and project metadata
+│
+├── public/
+│   # Static frontend resources
+│
+├── reports/
+│   # Generated reports and analysis outputs
+│
+├── scripts/
+│   # Automation and database seeding scripts
+│
+├── services/
+│   # Business logic and workflow services
+│
+├── src/
+│   # Frontend source code
+│
+├── tests/
+│   # Automated unit and integration tests
+│
+├── .dockerignore
+├── .env.example
+├── .gitignore
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── README_LOCAL.md
+├── docker-compose.yml
+├── main.py
+├── requirements.txt
+│
+├── package.json
+├── package-lock.json
+│
+├── index.html
+├── vite.config.ts
+│
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
+│
+├── pytest.ini
+│
+└── Machine Learning Models
+    ├── course_recommendation_model_light.pkl
+    ├── dropout_warning_model.pkl
+    ├── lead_scoring_model.pkl
+    ├── sales_forecasting_model.pkl
+    └── student_profiling_vectorizer.pkl
 
 🚀 Quickstart & Local Setup
 1. Clone & Set Up Virtual Environment
